@@ -1,4 +1,4 @@
-@import url('fonts/stylesheet.css');
+/*@import url('fonts/stylesheet.css');*/
 
 /* ====================================================
    GENERAL STYLES
@@ -10,13 +10,12 @@ html {
 }
 
 body {
-    /*font-family: Open Sans*/
-	font-family: Open Sans !important;
+	font-family: Open Sans;
     color: #fff;
     background: #000;
     width:100%;
     height:100%;
-    font-size:16px;
+    font-size:1.6em;
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-position:center center;
@@ -445,7 +444,7 @@ table {
     background: rgba(0,0,0,0.29); 
     padding:15px 5px;
     text-align: center;
-    font-size:0.6em;    
+    font-size:0.8em;    
 }
 
 #go-to-top {
@@ -1803,7 +1802,7 @@ h6 {
 .tabpanel.styled-tabs ul.nav > li > a > span {
     font-size:0.8em;
 }
-.tabpanel.styled-tabs ul.nav[text-hidden-xs="true"] > li > a > span { display:none; }
+/*.tabpanel.styled-tabs ul.nav[text-hidden-xs="true"] > li > a > span { display:none; }*/
 
 .tabpanel.styled-tabs ul.nav > li > a:hover, .tabpanel.styled-tabs ul.nav > li > a:focus {
     color: #fff;
@@ -1838,7 +1837,7 @@ h6 {
 
     @media (min-width: 768px) { 
         .tabpanel.styled-tabs ul.nav > li > a {
-            font-size:0.9em;
+            font-size:1.2em;
         }
         .tabpanel.styled-tabs ul.nav > li > a > .icon, .tabpanel.styled-tabs ul.nav[text-hidden-xs="true"] > li > a > .icon {
             margin-right: 11px;
@@ -1847,7 +1846,7 @@ h6 {
         .tabpanel.styled-tabs ul.nav[text-hidden-sm="true"] > li > a > .icon { font-size:1.75em; margin-right:0; }
 
         .tabpanel.styled-tabs ul.nav > li > a > span {
-            font-size:0.9em;
+            font-size:1.2em;
         }
         .tabpanel.styled-tabs ul.nav[text-hidden-xs="true"] > li > a > span {
             display:inline;
