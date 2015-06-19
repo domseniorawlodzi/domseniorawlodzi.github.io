@@ -409,12 +409,12 @@ if (typeof Object.create !== "function") {
 
             base.buttonPrev = $("<div/>", {
                 "class" : "owl-prev",
-                "html" : base.options.navigationText[0] || ""
+                "html" : "poprzednie"
             });
 
             base.buttonNext = $("<div/>", {
                 "class" : "owl-next",
-                "html" : base.options.navigationText[1] || ""
+                "html" : "następne"
             });
 
             buttonsWrapper
@@ -1469,7 +1469,7 @@ if (typeof Object.create !== "function") {
         stopOnHover : false,
 
         navigation : false,
-        navigationText : ["prev", "next"],
+        navigationText : ["poprzednie", "następne"],
         rewindNav : true,
         scrollPerPage : false,
 
